@@ -1,4 +1,21 @@
-// Escribir clases
+
+//exportar constante
+//export const nombreTarea = 'Pasear al perro';
+const nombreTarea = 'Pasear al perro';
+
+
+//Esto es para que no requiere las llaves en appModules.js
+export default nombreTarea;
+
+
+// exportar una funcion
+export const crearTarea = (tarea, urgencia) => {
+    return `La tarea ${tarea} tiene una urgencia de ${urgencia}`;
+}
+
+export const tareaCompletada =() => {
+    console.log('La tarea se completó');
+}
 
 class Tarea {
     //Cada vez que se crea una clase, se declara el constructor obligatoriamente
