@@ -8,6 +8,11 @@ let combinacion = [...lenguajes,...frameworks];
 
 console.log(combinacion);
 
+console.log(...combinacion, ...['AngularJs']);
+
+let combinacion2 = [...combinacion, ...lenguajes];
+console.log(combinacion2);
+
 // Con el siguiente podras obtener el ultimo valor del arreglo pero
 // tambien lenguajes estara volteado
 //let[ultimo] = lenguajes.reverse();

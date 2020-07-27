@@ -10,7 +10,7 @@ saludar("Juan");
 
 //function Expressions
 const cliente = function(nombreCliente){
-    consolelog("Mostrando datos del cliente "  nombreCliente);
+    console.log("Mostrando datos del cliente " + nombreCliente);
 }
 
 cliente('Juan');
